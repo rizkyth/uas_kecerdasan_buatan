@@ -3,7 +3,8 @@
 
 | Item | Keterangan |
 |------|-----------|
-| **Nama** | Mahasiswa |
+| **Nama** | Rizky TaupiK Hidayat |
+| **Nim** | 2406014 |
 | **Mata Kuliah** | Kecerdasan Buatan |
 | **Dataset** | Student Performance Dataset (Kaggle) |
 | **Algoritma** | Decision Tree, KNN, SVM, Naive Bayes |
