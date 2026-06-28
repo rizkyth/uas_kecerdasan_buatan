@@ -15,7 +15,8 @@
 | Item            | Detail                                                          |
 | --------------- | --------------------------------------------------------------- |
 | **Judul**       | Prediksi Kelulusan Siswa Menggunakan Algoritma Machine Learning |
-| **Nama**        | Mahasiswa                                                       |
+| **Nama**        | Rizky Taupik Hidayat                                            |
+| **Nim**         | 2406014                                                         |
 | **Mata Kuliah** | Kecerdasan Buatan                                               |
 | **Dataset**     | Student Performance Dataset (Kaggle/UCI)                        |
 
@@ -27,10 +28,11 @@
 UAS-KecerdasanBuatan/
 ├── README.md                    ← Dokumen ini
 ├── Laporan_uas.md               ← Laporan lengkap UAS
-├── uas_model.py                 ← Script Python utama (full pipeline)
+├── uas_model.ipynb              ← Script Python utama (full pipeline)
 └── data/
-    ├── student-performance.csv  ← Dataset
-    ├── eda_visualization.png    ← Grafik EDA
+    ├──dataset
+         ├── student-performance.csv  ← Dataset
+         ├── eda_visualization.png    ← Grafik EDA
     ├── confusion_matrix.png     ← Confusion matrix semua model
     ├── model_comparison.png     ← Perbandingan metrik model
     ├── model_summary.csv        ← Ringkasan hasil evaluasi

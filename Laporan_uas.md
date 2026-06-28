@@ -4,8 +4,7 @@
 
 | Item            | Keterangan                           |
 | --------------- | ------------------------------------ |
-| **Nama**        | Rizky Taupik Hidayat                 |
-| **NIM**         | 2406014                              |
+| **Nama**        | Mahasiswa                            |
 | **Mata Kuliah** | Kecerdasan Buatan                    |
 | **Dataset**     | Student Performance Dataset (Kaggle) |
 | **Algoritma**   | Decision Tree, KNN, SVM, Naive Bayes |
@@ -62,7 +61,7 @@ Dengan mengimplementasikan AI untuk prediksi kelulusan:
 
 ### 3.1 Sumber Data
 
-Dataset yang digunakan adalah **Student Performance Dataset** yang dipublikasikan di [Kaggle](https://www.kaggle.com/datasets/devansodariya/student-performance-data?resource=download) oleh Paulo Cortez, Universitas Minho, Portugal. Dataset ini juga tersedia di UCI Machine Learning Repository.
+Dataset yang digunakan adalah **Student Performance Dataset** yang dipublikasikan di [Kaggle](https://www.kaggle.com/datasets/impapan/student-performance-data-set) oleh Paulo Cortez, Universitas Minho, Portugal. Dataset ini juga tersedia di UCI Machine Learning Repository.
 
 - **Referensi asli**: P. Cortez and A. Silva. "Using Data Mining to Predict Secondary School Student Performance." In A. Brito and J. Teixeira Eds., Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008) pp. 5-12, Porto, Portugal, April 2008.
 
@@ -318,9 +317,7 @@ Proyek ini berhasil membangun 4 model Machine Learning untuk memprediksi kelulus
 
 ## 9. Referensi
 
-> **Catatan**: Semua referensi di bawah ini bersifat **Open Access** dan dapat diakses secara gratis.
-
-1. Namoun, A., & Alshanqiti, A. (2021). **Predicting student performance using data mining and learning analytics techniques: A systematic literature review**. _Applied Sciences_, 11(1), 237. https://doi.org/10.3390/app11010237 ✅ _MDPI Open Access_
+1. Cortez, P., & Silva, A. M. G. (2008). **Using data mining to predict secondary school student performance**. In _Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008)_, pp. 5-12. Porto, Portugal: EUROSIS.
 
 2. Ahmed, B. E. S., & Esmael, A. (2024). **Student performance prediction using machine learning algorithms**. _Applied Computational Intelligence and Soft Computing_, 2024, 4067721. https://doi.org/10.1155/2024/4067721 ✅ _Wiley Open Access_
 
