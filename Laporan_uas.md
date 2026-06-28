@@ -63,9 +63,7 @@ Dengan mengimplementasikan AI untuk prediksi kelulusan:
 
 ### 3.1 Sumber Data
 
-Dataset yang digunakan adalah **Student Performance Dataset** yang dipublikasikan di [Kaggle](https://www.kaggle.com/datasets/impapan/student-performance-data-set) oleh Paulo Cortez, Universitas Minho, Portugal. Dataset ini juga tersedia di UCI Machine Learning Repository.
-
-- **Referensi dataset**: Cortez & Silva (2008) — tersedia gratis di http://www3.dsi.uminho.pt/pcortez/student.pdf (lihat Referensi no. 7). Dataset ini juga digunakan sebagai benchmark pada berbagai penelitian terbaru, termasuk Ahmed & Esmael (2024) dan Sarker et al. (2024).
+Dataset yang digunakan adalah **Student Performance Dataset** yang dipublikasikan di [Kaggle](https://www.kaggle.com/datasets/devansodariya/student-performance-data?resource=download). 
 
 ### 3.2 Deskripsi Fitur (Atribut)
 
