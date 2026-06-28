@@ -28,7 +28,7 @@
 UAS-KecerdasanBuatan/
 ├── README.md                    ← Dokumen ini
 ├── Laporan_uas.md               ← Laporan lengkap UAS
-├── uas_model.py                 ← Script Python utama (full pipeline)
+├── uas_model.ipynb              ← Script Python utama (full pipeline)
 └── data/
     ├──dataset
          ├── student-performance.csv  ← Dataset
