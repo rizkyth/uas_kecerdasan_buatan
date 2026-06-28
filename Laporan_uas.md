@@ -60,7 +60,7 @@ Dengan mengimplementasikan AI untuk prediksi kelulusan:
 
 ### 3.1 Sumber Data
 
-Dataset yang digunakan adalah **Student Performance Dataset** yang dipublikasikan di [Kaggle](https://www.kaggle.com/datasets/impapan/student-performance-data-set) oleh Paulo Cortez, Universitas Minho, Portugal. Dataset ini juga tersedia di UCI Machine Learning Repository.
+Dataset yang digunakan adalah **Student Performance Dataset** yang dipublikasikan di [Kaggle](https://www.kaggle.com/datasets/devansodariya/student-performance-data?resource=download) oleh Dev Ansodariya. Dataset ini juga tersedia di UCI Machine Learning Repository.
 
 - **Referensi asli**: P. Cortez and A. Silva. "Using Data Mining to Predict Secondary School Student Performance." In A. Brito and J. Teixeira Eds., Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008) pp. 5-12, Porto, Portugal, April 2008.
 
