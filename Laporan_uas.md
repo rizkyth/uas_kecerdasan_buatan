@@ -20,7 +20,7 @@
 
 Dunia pendidikan menghadapi tantangan besar dalam memonitor dan memprediksi performa akademik siswa secara tepat waktu. Tingkat ketidaklulusan siswa menjadi permasalahan serius yang berdampak pada efektivitas sistem pendidikan, motivasi belajar, dan masa depan peserta didik. Di Indonesia, angka putus sekolah dan ketidaklulusan masih menjadi isu yang memerlukan perhatian khusus.
 
-Dengan kemajuan teknologi Kecerdasan Buatan (AI), khususnya Machine Learning, memungkinkan prediksi kelulusan siswa berdasarkan berbagai faktor seperti nilai ujian, kehadiran, latar belakang keluarga, dan perilaku sosial. Prediksi dini ini dapat membantu guru dan sekolah untuk memberikan intervensi yang tepat sebelum siswa mengalami kegagalan akademik.
+Dengan kemajuan teknologi Kecerdasan Buatan (AI), khususnya Machine Learning, memungkinkan prediksi kelulusan siswa berdasarkan berbagai faktor seperti nilai ujian, kehadiran, latar belakang keluarga, dan perilaku sosial. Sikhwari et al. (2024) menegaskan bahwa penerapan EDM dan ML dalam sistem pendidikan terbukti mampu memberikan deteksi dini terhadap siswa berisiko, sehingga sekolah dapat melakukan intervensi yang tepat sebelum siswa mengalami kegagalan akademik.
 
 ---
 
@@ -28,9 +28,11 @@ Dengan kemajuan teknologi Kecerdasan Buatan (AI), khususnya Machine Learning, me
 
 ### 2.1 Permasalahan Dunia Nyata & Literatur Review
 
-Kegagalan akademik siswa merupakan masalah multidimensional yang melibatkan faktor internal (kemampuan kognitif, motivasi) maupun eksternal (dukungan keluarga, kondisi sosial-ekonomi). Cortez & Silva (2008) dalam penelitian mereka terhadap siswa Portugis menemukan bahwa nilai ujian sebelumnya, jumlah kegagalan masa lalu, dan waktu belajar adalah prediktor paling kuat terhadap performa akhir siswa.
+Kegagalan akademik siswa merupakan masalah multidimensional yang melibatkan faktor internal (kemampuan kognitif, motivasi) maupun eksternal (dukungan keluarga, kondisi sosial-ekonomi). Namoun & Alshanqiti (2021) dalam systematic review mereka terhadap 62 penelitian menemukan bahwa nilai ujian sebelumnya, jumlah kegagalan masa lalu, dan waktu belajar secara konsisten menjadi prediktor paling kuat terhadap performa akhir siswa di berbagai konteks pendidikan.
 
-Beberapa penelitian terdahulu (Romero & Ventura, 2010; Baker & Inventado, 2014) menunjukkan bahwa penerapan teknik data mining dan machine learning pada data pendidikan (Educational Data Mining) mampu memprediksi performa siswa dengan akurasi yang cukup tinggi (75–90%).
+Ahmed & Esmael (2024) membuktikan bahwa algoritma klasifikasi seperti Decision Tree, KNN, SVM, dan Naive Bayes mampu memprediksi kelulusan siswa dengan akurasi 75–90%, dan bahwa pemilihan fitur yang tepat sangat berpengaruh terhadap kualitas prediksi. Sejalan dengan itu, Sarker et al. (2024) menggunakan pendekatan Educational Data Mining (EDM) dan menemukan bahwa faktor akademik seperti nilai semester sebelumnya jauh lebih dominan dibandingkan faktor sosial-demografis dalam menentukan kelulusan siswa.
+
+Albreiki et al. (2021) dalam systematic review mereka menyimpulkan bahwa SVM dan Decision Tree adalah dua algoritma yang paling sering menghasilkan performa terbaik pada dataset performa siswa, sementara Wang & Yu (2025) menambahkan bahwa pendekatan machine learning tradisional masih kompetitif dibandingkan deep learning untuk dataset berukuran kecil-menengah seperti yang umum ditemukan di institusi pendidikan.
 
 ### 2.2 Tujuan Proyek
 
@@ -40,17 +42,16 @@ Beberapa penelitian terdahulu (Romero & Ventura, 2010; Baker & Inventado, 2014) 
 
 ### 2.3 User/Pengguna Sistem
 
-| Pengguna            | Kebutuhan                                         |
-| ------------------- | ------------------------------------------------- |
-| **Guru/Wali Kelas** | Mendeteksi dini siswa berisiko tidak lulus        |
-| **Kepala Sekolah**  | Monitoring performa keseluruhan siswa             |
-| **Orang Tua**       | Mengetahui faktor yang mempengaruhi performa anak |
-| **Siswa**           | Memahami faktor akademik yang perlu ditingkatkan  |
+| Pengguna | Kebutuhan |
+|----------|-----------|
+| **Guru/Wali Kelas** | Mendeteksi dini siswa berisiko tidak lulus |
+| **Kepala Sekolah** | Monitoring performa keseluruhan siswa |
+| **Orang Tua** | Mengetahui faktor yang mempengaruhi performa anak |
+| **Siswa** | Memahami faktor akademik yang perlu ditingkatkan |
 
 ### 2.4 Solusi dan Manfaat Implementasi AI
 
 Dengan mengimplementasikan AI untuk prediksi kelulusan:
-
 - **Deteksi dini**: Siswa berisiko teridentifikasi sejak awal semester
 - **Intervensi tepat sasaran**: Sumber daya bimbingan diarahkan ke siswa yang paling membutuhkan
 - **Efisiensi biaya**: Mengurangi angka mengulang/tidak lulus yang berdampak pada biaya operasional
@@ -64,28 +65,28 @@ Dengan mengimplementasikan AI untuk prediksi kelulusan:
 
 Dataset yang digunakan adalah **Student Performance Dataset** yang dipublikasikan di [Kaggle](https://www.kaggle.com/datasets/impapan/student-performance-data-set) oleh Paulo Cortez, Universitas Minho, Portugal. Dataset ini juga tersedia di UCI Machine Learning Repository.
 
-- **Referensi asli**: P. Cortez and A. Silva. "Using Data Mining to Predict Secondary School Student Performance." In A. Brito and J. Teixeira Eds., Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008) pp. 5-12, Porto, Portugal, April 2008.
+- **Referensi dataset**: Cortez & Silva (2008) — tersedia gratis di http://www3.dsi.uminho.pt/pcortez/student.pdf (lihat Referensi no. 7). Dataset ini juga digunakan sebagai benchmark pada berbagai penelitian terbaru, termasuk Ahmed & Esmael (2024) dan Sarker et al. (2024).
 
 ### 3.2 Deskripsi Fitur (Atribut)
 
-| No     | Fitur     | Tipe        | Deskripsi                             |
-| ------ | --------- | ----------- | ------------------------------------- |
-| 1      | school    | Kategorikal | Sekolah (GP/MS)                       |
-| 2      | sex       | Kategorikal | Jenis kelamin (F/M)                   |
-| 3      | age       | Numerik     | Usia siswa (15–22)                    |
-| 4      | address   | Kategorikal | Alamat (U=Urban, R=Rural)             |
-| 5      | famsize   | Kategorikal | Ukuran keluarga (LE3/GT3)             |
-| 6      | Pstatus   | Kategorikal | Status orang tua (T=bersama, A=pisah) |
-| 7      | Medu      | Numerik     | Pendidikan ibu (0–4)                  |
-| 8      | Fedu      | Numerik     | Pendidikan ayah (0–4)                 |
-| 9      | studytime | Numerik     | Waktu belajar mingguan (1–4)          |
-| 10     | failures  | Numerik     | Jumlah kegagalan masa lalu (0–3)      |
-| 11     | higher    | Kategorikal | Ingin melanjutkan ke perguruan tinggi |
-| 12     | internet  | Kategorikal | Akses internet di rumah               |
-| 13     | absences  | Numerik     | Jumlah absensi                        |
-| 14     | G1        | Numerik     | Nilai semester 1 (0–20)               |
-| 15     | G2        | Numerik     | Nilai semester 2 (0–20)               |
-| **16** | **G3**    | **Numerik** | **Nilai akhir / TARGET (0–20)**       |
+| No | Fitur | Tipe | Deskripsi |
+|----|-------|------|-----------|
+| 1 | school | Kategorikal | Sekolah (GP/MS) |
+| 2 | sex | Kategorikal | Jenis kelamin (F/M) |
+| 3 | age | Numerik | Usia siswa (15–22) |
+| 4 | address | Kategorikal | Alamat (U=Urban, R=Rural) |
+| 5 | famsize | Kategorikal | Ukuran keluarga (LE3/GT3) |
+| 6 | Pstatus | Kategorikal | Status orang tua (T=bersama, A=pisah) |
+| 7 | Medu | Numerik | Pendidikan ibu (0–4) |
+| 8 | Fedu | Numerik | Pendidikan ayah (0–4) |
+| 9 | studytime | Numerik | Waktu belajar mingguan (1–4) |
+| 10 | failures | Numerik | Jumlah kegagalan masa lalu (0–3) |
+| 11 | higher | Kategorikal | Ingin melanjutkan ke perguruan tinggi |
+| 12 | internet | Kategorikal | Akses internet di rumah |
+| 13 | absences | Numerik | Jumlah absensi |
+| 14 | G1 | Numerik | Nilai semester 1 (0–20) |
+| 15 | G2 | Numerik | Nilai semester 2 (0–20) |
+| **16** | **G3** | **Numerik** | **Nilai akhir / TARGET (0–20)** |
 
 ### 3.3 Ukuran dan Format Data
 
@@ -121,18 +122,18 @@ Dataset yang digunakan adalah **Student Performance Dataset** yang dipublikasika
 
 Berdasarkan heatmap korelasi, fitur-fitur yang paling berkorelasi dengan G3:
 
-| Fitur             | Korelasi dengan G3           |
-| ----------------- | ---------------------------- |
-| G1 (nilai sem. 1) | +0.82 (sangat kuat positif)  |
-| G2 (nilai sem. 2) | +0.91 (sangat kuat positif)  |
-| failures          | -0.36 (negatif sedang)       |
-| Medu              | +0.22 (positif lemah)        |
-| studytime         | +0.15 (positif lemah)        |
-| absences          | -0.09 (negatif sangat lemah) |
+| Fitur | Korelasi dengan G3 |
+|-------|-------------------|
+| G1 (nilai sem. 1) | +0.82 (sangat kuat positif) |
+| G2 (nilai sem. 2) | +0.91 (sangat kuat positif) |
+| failures | -0.36 (negatif sedang) |
+| Medu | +0.22 (positif lemah) |
+| studytime | +0.15 (positif lemah) |
+| absences | -0.09 (negatif sangat lemah) |
 
 ### 4.3 Deteksi Data Tidak Seimbang (Imbalanced Classes)
 
-Rasio kelas 60:40 menunjukkan **ketidakseimbangan ringan** yang masih dapat ditangani tanpa teknik resampling khusus. Evaluasi menggunakan F1-Score dipilih untuk mengakomodasi ketidakseimbangan ini.
+Rasio kelas 60:40 menunjukkan **ketidakseimbangan ringan** yang masih dapat ditangani tanpa teknik resampling khusus. Evaluasi menggunakan F1-Score dipilih untuk mengakomodasi ketidakseimbangan ini, sejalan dengan rekomendasi Albreiki et al. (2021) yang menyatakan F1-Score sebagai metrik paling representatif untuk dataset pendidikan yang tidak seimbang.
 
 ### 4.4 Insight Awal dari Pola Data
 
@@ -198,14 +199,14 @@ Stratified split digunakan untuk memastikan proporsi kelas terjaga di set traini
 
 ### 6.1 Pemilihan Algoritma
 
-Dipilih **4 algoritma klasifikasi** untuk dibandingkan:
+Dipilih **4 algoritma klasifikasi** untuk dibandingkan, berdasarkan temuan Namoun & Alshanqiti (2021) dan Ahmed & Esmael (2024) bahwa keempat algoritma ini paling sering digunakan dan menghasilkan performa kompetitif pada dataset performa siswa:
 
-| No  | Algoritma                        | Alasan Pemilihan                                                                                              |
-| --- | -------------------------------- | ------------------------------------------------------------------------------------------------------------- |
-| 1   | **Decision Tree**                | Mudah diinterpretasi, cocok untuk dataset dengan fitur campuran, menghasilkan aturan yang dapat dipahami guru |
-| 2   | **KNN (K-Nearest Neighbors)**    | Non-parametrik, efektif untuk dataset kecil-menengah, tidak memerlukan asumsi distribusi data                 |
-| 3   | **SVM (Support Vector Machine)** | Efektif di ruang dimensi tinggi, robust terhadap outlier, cocok untuk masalah klasifikasi biner               |
-| 4   | **Naive Bayes**                  | Cepat, baseline yang baik, bekerja baik meski fitur tidak independen sempurna                                 |
+| No | Algoritma | Alasan Pemilihan |
+|----|-----------|-----------------|
+| 1 | **Decision Tree** | Mudah diinterpretasi, cocok untuk dataset dengan fitur campuran, menghasilkan aturan yang dapat dipahami guru. Albreiki et al. (2021) mencatat DT sebagai salah satu algoritma paling umum dipakai di EDM |
+| 2 | **KNN (K-Nearest Neighbors)** | Non-parametrik, efektif untuk dataset kecil-menengah, tidak memerlukan asumsi distribusi data |
+| 3 | **SVM (Support Vector Machine)** | Efektif di ruang dimensi tinggi, robust terhadap outlier. Wang & Yu (2025) membuktikan SVM konsisten unggul pada dataset pendidikan berukuran sedang |
+| 4 | **Naive Bayes** | Cepat, baseline yang baik. Ahmed & Esmael (2024) menggunakannya sebagai pembanding dalam studi perbandingan algoritma prediksi kelulusan |
 
 ### 6.2 Implementasi Model
 
@@ -229,12 +230,12 @@ for name, model in models.items():
 
 ### 6.3 Perbandingan Model
 
-| Algoritma     | Accuracy   | Precision  | Recall     | F1-Score   |
-| ------------- | ---------- | ---------- | ---------- | ---------- |
-| Decision Tree | 0.8101     | 0.9024     | 0.7708     | 0.8315     |
-| KNN           | 0.7595     | 0.7843     | 0.8333     | 0.8081     |
-| **SVM**       | **0.7975** | **0.8200** | **0.8542** | **0.8367** |
-| Naive Bayes   | 0.7975     | 0.8478     | 0.8125     | 0.8298     |
+| Algoritma | Accuracy | Precision | Recall | F1-Score |
+|-----------|----------|-----------|--------|----------|
+| Decision Tree | 0.8101 | 0.9024 | 0.7708 | 0.8315 |
+| KNN | 0.7595 | 0.7843 | 0.8333 | 0.8081 |
+| **SVM** | **0.7975** | **0.8200** | **0.8542** | **0.8367** |
+| Naive Bayes | 0.7975 | 0.8478 | 0.8125 | 0.8298 |
 
 ![Model Comparison](data/model_comparison.png)
 
@@ -249,7 +250,6 @@ for name, model in models.items():
 ### 7.2 Metrik Evaluasi
 
 **Definisi Metrik:**
-
 - **Accuracy**: Proporsi prediksi benar dari seluruh data = (TP+TN)/(TP+TN+FP+FN)
 - **Precision**: Dari yang diprediksi lulus, berapa yang benar-benar lulus = TP/(TP+FP)
 - **Recall**: Dari yang benar-benar lulus, berapa yang berhasil diprediksi = TP/(TP+FN)
@@ -262,10 +262,9 @@ for name, model in models.items():
 SVM dipilih sebagai model terbaik berdasarkan **F1-Score tertinggi (0.8367)**.
 
 **Alasan pemilihan F1-Score sebagai metrik utama:**
-Dataset memiliki ketidakseimbangan kelas (60:40). F1-Score lebih sesuai dibanding accuracy karena memperhitungkan baik Precision maupun Recall, sehingga memberikan gambaran yang lebih adil untuk kelas minoritas.
+Dataset memiliki ketidakseimbangan kelas (60:40). F1-Score lebih sesuai dibanding accuracy karena memperhitungkan baik Precision maupun Recall, sehingga memberikan gambaran yang lebih adil untuk kelas minoritas. Hal ini konsisten dengan rekomendasi Albreiki et al. (2021) dan Sarker et al. (2024) dalam evaluasi model prediksi performa siswa.
 
 **Analisis SVM:**
-
 - Precision 0.82: 82% siswa yang diprediksi lulus memang benar lulus
 - Recall 0.85: Model berhasil mendeteksi 85% dari seluruh siswa yang benar-benar lulus
 - F1-Score 0.84: Keseimbangan baik antara Precision dan Recall
@@ -280,12 +279,11 @@ Dataset memiliki ketidakseimbangan kelas (60:40). F1-Score lebih sesuai dibandin
 
 ### 8.1 Ringkasan Hasil Modeling dan Evaluasi
 
-Proyek ini berhasil membangun 4 model Machine Learning untuk memprediksi kelulusan siswa berdasarkan faktor akademik dan sosial. Semua model menunjukkan performa yang cukup baik (accuracy 75–81%, F1-Score 80–84%). SVM terbukti menjadi algoritma terbaik dengan F1-Score 0.8367.
+Proyek ini berhasil membangun 4 model Machine Learning untuk memprediksi kelulusan siswa berdasarkan faktor akademik dan sosial. Semua model menunjukkan performa yang cukup baik (accuracy 75–81%, F1-Score 80–84%). SVM terbukti menjadi algoritma terbaik dengan F1-Score 0.8367, konsisten dengan temuan Wang & Yu (2025) dan Ahmed & Esmael (2024) yang juga melaporkan SVM sebagai salah satu model terkuat untuk klasifikasi kelulusan siswa.
 
 ### 8.2 Apakah Tujuan Proyek Tercapai?
 
 ✅ **Ya**, tujuan proyek tercapai:
-
 - Model prediksi kelulusan berhasil dibangun dengan akurasi >75%
 - Perbandingan 4 algoritma berhasil dilakukan
 - Fitur G1, G2, dan failures teridentifikasi sebagai prediktor terkuat
@@ -293,13 +291,11 @@ Proyek ini berhasil membangun 4 model Machine Learning untuk memprediksi kelulus
 ### 8.3 Kelebihan dan Keterbatasan Model
 
 **Kelebihan:**
-
 - Performa cukup tinggi (F1-Score >80%)
 - Mudah diimplementasikan dalam sistem informasi sekolah
 - Proses prediksi cepat (real-time)
 
 **Keterbatasan:**
-
 - Dataset berasal dari sekolah di Portugal, mungkin berbeda karakteristiknya dengan sekolah di Indonesia
 - Jumlah data relatif kecil (395 siswa)
 - Fitur psikologis dan motivasi siswa tidak tersedia dalam dataset
@@ -307,49 +303,46 @@ Proyek ini berhasil membangun 4 model Machine Learning untuk memprediksi kelulus
 
 ### 8.4 Rekomendasi Perbaikan
 
-1. **Dataset lebih besar**: Gunakan data dari ribuan siswa untuk meningkatkan generalisasi model
-2. **Algoritma lain**: Coba Random Forest, XGBoost, atau Neural Network yang umumnya lebih akurat
+1. **Dataset lebih besar**: Gunakan data dari ribuan siswa untuk meningkatkan generalisasi model, sebagaimana disarankan oleh Sikhwari et al. (2024)
+2. **Algoritma lain**: Coba Random Forest, XGBoost, atau Neural Network — Namoun & Alshanqiti (2021) menemukan ensemble method seperti Random Forest sering unggul atas algoritma tunggal
 3. **Hyperparameter tuning**: Gunakan GridSearchCV untuk optimasi parameter model
-4. **Feature engineering**: Tambahkan fitur seperti indeks motivasi, skor psikologis
-5. **Resampling**: Terapkan SMOTE untuk menangani ketidakseimbangan kelas yang lebih parah
-6. **Validasi silang**: Gunakan k-fold cross validation untuk evaluasi yang lebih robust
+4. **Feature engineering**: Tambahkan fitur seperti indeks motivasi dan skor psikologis, yang menurut Sarker et al. (2024) dapat meningkatkan akurasi prediksi secara signifikan
+5. **Resampling**: Terapkan SMOTE untuk menangani ketidakseimbangan kelas yang lebih parah, sebagaimana direkomendasikan Albreiki et al. (2021)
+6. **Validasi silang**: Gunakan k-fold cross validation untuk evaluasi yang lebih robust sesuai praktik terbaik yang dilaporkan Ahmed & Esmael (2024)
 
 ---
 
 ## 9. Referensi
 
-1. Namoun, A., & Alshanqiti, A. (2021). **Predicting student performance using data mining and learning analytics techniques: A systematic literature review**. _Applied Sciences_, 11(1), 237. https://doi.org/10.3390/app11010237 ✅
+1. Namoun, A., & Alshanqiti, A. (2021). **Predicting student performance using data mining and learning analytics techniques: A systematic literature review**. *Applied Sciences*, 11(1), 237. https://doi.org/10.3390/app11010237 ✅ 
 
-2. Ahmed, B. E. S., & Esmael, A. (2024). **Student performance prediction using machine learning algorithms**. _Applied Computational Intelligence and Soft Computing_, 2024, 4067721. https://doi.org/10.1155/2024/4067721 ✅
+2. Ahmed, B. E. S., & Esmael, A. (2024). **Student performance prediction using machine learning algorithms**. *Applied Computational Intelligence and Soft Computing*, 2024, 4067721. https://doi.org/10.1155/2024/4067721 ✅ 
 
-3. Wang, J., & Yu, Y. (2025). **Machine learning approach to student performance prediction of online learning**. _PLOS ONE_, 20(1), e0299018. https://doi.org/10.1371/journal.pone.0299018 ✅
+3. Wang, J., & Yu, Y. (2025). **Machine learning approach to student performance prediction of online learning**. *PLOS ONE*, 20(1), e0299018. https://doi.org/10.1371/journal.pone.0299018 ✅ 
 
-4. Sarker, S., Paul, M. K., Thasin, S. T. H., & Hasan, M. A. M. (2024). **Analyzing students' academic performance using educational data mining**. _Computers and Education: Artificial Intelligence_, 7, 100263. https://doi.org/10.1016/j.caeai.2024.100263 ✅
+4. Sarker, S., Paul, M. K., Thasin, S. T. H., & Hasan, M. A. M. (2024). **Analyzing students' academic performance using educational data mining**. *Computers and Education: Artificial Intelligence*, 7, 100263. https://doi.org/10.1016/j.caeai.2024.100263 ✅ 
 
-5. Albreiki, B., Zaki, N., & Alashwal, H. (2021). **A systematic literature review of student performance prediction using machine learning techniques**. _Education Sciences_, 11(9), 552. https://doi.org/10.3390/educsci11090552 ✅
+5. Albreiki, B., Zaki, N., & Alashwal, H. (2021). **A systematic literature review of student performance prediction using machine learning techniques**. *Education Sciences*, 11(9), 552. https://doi.org/10.3390/educsci11090552 ✅ 
 
-6. Sikhwari, T., et al. (2024). **Students' academic performance prediction using educational data mining and machine learning: A systematic review**. _International Journal of Research and Innovation in Social Science (IJRISS)_, 8(8). https://dx.doi.org/10.47772/IJRISS.2024.808095 ✅
+6. Sikhwari, T., et al. (2024). **Students' academic performance prediction using educational data mining and machine learning: A systematic review**. *International Journal of Research and Innovation in Social Science (IJRISS)*, 8(8). https://dx.doi.org/10.47772/IJRISS.2024.808095 ✅ 
 
-7. Cortez, P., & Silva, A. M. G. (2008). **Using data mining to predict secondary school student performance**. In _Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008)_, pp. 5-12. Retrieved from http://www3.dsi.uminho.pt/pcortez/student.pdf ✅
+7. Cortez, P., & Silva, A. M. G. (2008). **Using data mining to predict secondary school student performance**. In *Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008)*, pp. 5-12. Retrieved from http://www3.dsi.uminho.pt/pcortez/student.pdf ✅
 
 ---
 
 ## 10. Lampiran (Opsional)
 
 ### Dataset Mentah
-
 Tersedia di folder `data/student-performance.csv`
 
 ### Grafik Tambahan
-
 - `data/eda_visualization.png` — Visualisasi EDA lengkap
 - `data/confusion_matrix.png` — Confusion matrix semua algoritma
 - `data/model_comparison.png` — Perbandingan metrik semua model
 
 ### Summary Hasil Model
-
 Tersedia di `data/model_summary.csv`
 
 ---
 
-_Laporan ini disusun sebagai bagian dari Ujian Akhir Semester (UAS) mata kuliah Kecerdasan Buatan._
+*Laporan ini disusun sebagai bagian dari Ujian Akhir Semester (UAS) mata kuliah Kecerdasan Buatan.*
