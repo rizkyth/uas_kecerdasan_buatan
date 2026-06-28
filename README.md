@@ -30,8 +30,9 @@ UAS-KecerdasanBuatan/
 ├── Laporan_uas.md               ← Laporan lengkap UAS
 ├── uas_model.py                 ← Script Python utama (full pipeline)
 └── data/
-    ├── student-performance.csv  ← Dataset
-    ├── eda_visualization.png    ← Grafik EDA
+    ├──dataset
+         ├── student-performance.csv  ← Dataset
+         ├── eda_visualization.png    ← Grafik EDA
     ├── confusion_matrix.png     ← Confusion matrix semua model
     ├── model_comparison.png     ← Perbandingan metrik model
     ├── model_summary.csv        ← Ringkasan hasil evaluasi
