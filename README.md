@@ -15,7 +15,8 @@
 | Item            | Detail                                                          |
 | --------------- | --------------------------------------------------------------- |
 | **Judul**       | Prediksi Kelulusan Siswa Menggunakan Algoritma Machine Learning |
-| **Nama**        | Mahasiswa                                                       |
+| **Nama**        | Rizky Taupik Hidayat                                            |
+| **Nim**         | 2406014                                                         |
 | **Mata Kuliah** | Kecerdasan Buatan                                               |
 | **Dataset**     | Student Performance Dataset (Kaggle/UCI)                        |
 
