@@ -4,7 +4,8 @@
 
 | Item            | Keterangan                           |
 | --------------- | ------------------------------------ |
-| **Nama**        | Mahasiswa                            |
+| **Nama**        | Rizky Taupik Hidayat                 |
+| **Nim**         | 2406014                              |
 | **Mata Kuliah** | Kecerdasan Buatan                    |
 | **Dataset**     | Student Performance Dataset (Kaggle) |
 | **Algoritma**   | Decision Tree, KNN, SVM, Naive Bayes |
@@ -317,19 +318,19 @@ Proyek ini berhasil membangun 4 model Machine Learning untuk memprediksi kelulus
 
 ## 9. Referensi
 
-1. Cortez, P., & Silva, A. M. G. (2008). **Using data mining to predict secondary school student performance**. In _Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008)_, pp. 5-12. Porto, Portugal: EUROSIS.
+1. Namoun, A., & Alshanqiti, A. (2021). **Predicting student performance using data mining and learning analytics techniques: A systematic literature review**. _Applied Sciences_, 11(1), 237. https://doi.org/10.3390/app11010237 ✅
 
-2. Ahmed, B. E. S., & Esmael, A. (2024). **Student performance prediction using machine learning algorithms**. _Applied Computational Intelligence and Soft Computing_, 2024, 4067721. https://doi.org/10.1155/2024/4067721 ✅ _Wiley Open Access_
+2. Ahmed, B. E. S., & Esmael, A. (2024). **Student performance prediction using machine learning algorithms**. _Applied Computational Intelligence and Soft Computing_, 2024, 4067721. https://doi.org/10.1155/2024/4067721 ✅
 
-3. Wang, J., & Yu, Y. (2025). **Machine learning approach to student performance prediction of online learning**. _PLOS ONE_, 20(1), e0299018. https://doi.org/10.1371/journal.pone.0299018 ✅ _PubMed Central Open Access_
+3. Wang, J., & Yu, Y. (2025). **Machine learning approach to student performance prediction of online learning**. _PLOS ONE_, 20(1), e0299018. https://doi.org/10.1371/journal.pone.0299018 ✅
 
-4. Sarker, S., Paul, M. K., Thasin, S. T. H., & Hasan, M. A. M. (2024). **Analyzing students' academic performance using educational data mining**. _Computers and Education: Artificial Intelligence_, 7, 100263. https://doi.org/10.1016/j.caeai.2024.100263 ✅ _Elsevier Open Access_
+4. Sarker, S., Paul, M. K., Thasin, S. T. H., & Hasan, M. A. M. (2024). **Analyzing students' academic performance using educational data mining**. _Computers and Education: Artificial Intelligence_, 7, 100263. https://doi.org/10.1016/j.caeai.2024.100263 ✅
 
-5. Albreiki, B., Zaki, N., & Alashwal, H. (2021). **A systematic literature review of student performance prediction using machine learning techniques**. _Education Sciences_, 11(9), 552. https://doi.org/10.3390/educsci11090552 ✅ _MDPI Open Access_
+5. Albreiki, B., Zaki, N., & Alashwal, H. (2021). **A systematic literature review of student performance prediction using machine learning techniques**. _Education Sciences_, 11(9), 552. https://doi.org/10.3390/educsci11090552 ✅
 
-6. Sikhwari, T., et al. (2024). **Students' academic performance prediction using educational data mining and machine learning: A systematic review**. _International Journal of Research and Innovation in Social Science (IJRISS)_, 8(8). https://dx.doi.org/10.47772/IJRISS.2024.808095 ✅ _Open Access_
+6. Sikhwari, T., et al. (2024). **Students' academic performance prediction using educational data mining and machine learning: A systematic review**. _International Journal of Research and Innovation in Social Science (IJRISS)_, 8(8). https://dx.doi.org/10.47772/IJRISS.2024.808095 ✅
 
-7. Cortez, P., & Silva, A. M. G. (2008). **Using data mining to predict secondary school student performance**. In _Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008)_, pp. 5-12. Retrieved from http://www3.dsi.uminho.pt/pcortez/student.pdf ✅ _PDF Gratis dari Author_
+7. Cortez, P., & Silva, A. M. G. (2008). **Using data mining to predict secondary school student performance**. In _Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008)_, pp. 5-12. Retrieved from http://www3.dsi.uminho.pt/pcortez/student.pdf ✅
 
 ---
 
