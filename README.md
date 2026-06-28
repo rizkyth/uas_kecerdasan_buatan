@@ -161,14 +161,5 @@ python uas_model.py
 
 ---
 
-## 📚 Referensi Jurnal
-
-1. Cortez & Silva (2008) — Using Data Mining to Predict Secondary School Student Performance
-2. Romero & Ventura (2010) — Educational Data Mining: A Review
-3. Baker & Inventado (2014) — Educational Data Mining and Learning Analytics
-4. Pedregosa et al. (2011) — Scikit-learn: Machine Learning in Python
-5. Han, Kamber & Pei (2011) — Data Mining: Concepts and Techniques
-
----
 
 _UAS Kecerdasan Buatan | Semester Genap 2025/2026_
