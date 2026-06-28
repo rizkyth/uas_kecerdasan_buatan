@@ -1,53 +1,67 @@
-# Daftar Referensi Jurnal Ilmiah
+## 1. Namoun & Alshanqiti (2021) — MDPI Applied Sciences ⭐ Paling Relevan
 
-## 1. Cortez & Silva (2008) — Jurnal Utama Dataset
+**Judul**: Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review  
+**Penulis**: Namoun, A., & Alshanqiti, A.  
+**Jurnal**: Applied Sciences, 11(1), 237  
+**Tahun**: 2021  
+**DOI/Link**: https://doi.org/10.3390/app11010237
+
+---
+
+## 2. Ahmed et al. (2024) — Wiley Open Access
+
+**Judul**: Student Performance Prediction Using Machine Learning Algorithms  
+**Penulis**: Ahmed, B. E. S., & Esmael, A.  
+**Jurnal**: Applied Computational Intelligence and Soft Computing, 2024, 4067721  
+**Tahun**: 2024  
+**DOI/Link**: https://doi.org/10.1155/2024/4067721
+
+---
+
+## 3. Wang & Yu (2025)
+
+**Judul**: Machine Learning Approach to Student Performance Prediction of Online Learning  
+**Penulis**: Wang, J., & Yu, Y.  
+**Jurnal**: PLOS ONE, 20(1), e0299018  
+**Tahun**: 2025  
+**DOI/Link**: https://doi.org/10.1371/journal.pone.0299018  
+**Link PMC**: https://pmc.ncbi.nlm.nih.gov/articles/PMC11731722/
+
+---
+
+## 4. Sarker et al. (2024)
+
+**Judul**: Analyzing Students' Academic Performance Using Educational Data Mining  
+**Penulis**: Sarker, S., Paul, M. K., Thasin, S. T. H., & Hasan, M. A. M.  
+**Jurnal**: Computers and Education: Artificial Intelligence, 7, 100263  
+**Tahun**: 2024  
+**DOI/Link**: https://doi.org/10.1016/j.caeai.2024.100263
+
+---
+
+## 5. Albreiki et al. (2021)
+
+**Judul**: A Systematic Literature Review of Student Performance Prediction Using Machine Learning Techniques  
+**Penulis**: Albreiki, B., Zaki, N., & Alashwal, H.  
+**Jurnal**: Education Sciences, 11(9), 552  
+**Tahun**: 2021  
+**DOI/Link**: https://doi.org/10.3390/educsci11090552
+
+---
+
+## 6. IJRISS (2024)
+
+**Judul**: Students' Academic Performance Prediction Using Educational Data Mining and Machine Learning: A Systematic Review  
+**Jurnal**: International Journal of Research and Innovation in Social Science (IJRISS), Vol. 8  
+**Tahun**: 2024  
+**DOI/Link**: https://dx.doi.org/10.47772/IJRISS.2024.808095
+
+---
+
+## 7. Cortez & Silva (2008)
 
 **Judul**: Using Data Mining to Predict Secondary School Student Performance  
 **Penulis**: Cortez, P., & Silva, A. M. G.  
-**Publikasi**: Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008)  
-**Link**: https://repositorium.uminho.pt/server/api/core/bitstreams/991a0e2b-249d-466d-afef-937d975ff7fc/content
-
-## 2. Romero & Ventura (2010)
-
-**Judul**: Educational Data Mining: A Review of the State of the Art  
-**Penulis**: Romero, C., & Ventura, S.  
-**Jurnal**: IEEE Transactions on Systems, Man, and Cybernetics, 40(6), 601-618  
-**DOI**: https://doi.org/10.1109/TSMCC.2010.2053532
-
-## 3. Baker & Inventado (2014)
-
-**Judul**: Educational Data Mining and Learning Analytics  
-**Penulis**: Baker, R. S., & Inventado, P. S.  
-**Publikasi**: Learning Analytics (Springer), pp. 61-75  
-**DOI**: https://doi.org/10.1007/978-1-4614-3305-7_4
-
-## 4. Pedregosa et al. (2011)
-
-**Judul**: Scikit-learn: Machine Learning in Python  
-**Penulis**: Pedregosa, F., et al.  
-**Jurnal**: Journal of Machine Learning Research, 12, 2825-2830  
-**Link**: https://jmlr.org/papers/v12/pedregosa11a.html
-
-## 5. Han, Kamber & Pei (2011)
-
-**Judul**: Data Mining: Concepts and Techniques (3rd Edition)  
-**Penulis**: Han, J., Kamber, M., & Pei, J.  
-**Penerbit**: Morgan Kaufmann Publishers  
-**ISBN**: 978-0123814791
-**Link**: https://myweb.sabanciuniv.edu/rdehkharghani/files/2016/02/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf
-
-## 6. Vapnik (1998)
-
-**Judul**: Statistical Learning Theory  
-**Penulis**: Vapnik, V. N.  
-**Penerbit**: Wiley-Interscience  
-**ISBN**: 978-0471030034
-**Link**: https://id.scribd.com/document/824621279/Vapnik-1998-Statistical-Learning-Theory
-
-## 7. Mitchell (1997)
-
-**Judul**: Machine Learning  
-**Penulis**: Mitchell, T. M.  
-**Penerbit**: McGraw-Hill  
-**ISBN**: 978-0070428072
-**Link**: https://www.cs.cmu.edu/~tom/files/MachineLearningTomMitchell.pdf
+**Publikasi**: Proceedings of 5th FUBUTEC Conference  
+**Tahun**: 2008  
+**Link**: http://www3.dsi.uminho.pt/pcortez/student.pdf
