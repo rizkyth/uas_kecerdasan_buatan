@@ -310,7 +310,7 @@ Proyek ini berhasil membangun 4 model Machine Learning untuk memprediksi kelulus
 
 ## 9. Referensi
 
-1. Cortez, P., & Silva, A. M. G. (2008). **Using data mining to predict secondary school student performance**. In *Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008)*, pp. 5-12. Porto, Portugal: EUROSIS.
+1. Cortez, P., & Silva, A. M. G. (2008). **Using data mining to predict secondary school student performance**. In *Proceedings of 5th FUture BUsiness TEChnology Conference (FUBUTEC 2008)*, pp. 5-12. Porto, Portugal: EUROSIS. https://repositorium.uminho.pt/server/api/core/bitstreams/991a0e2b-249d-466d-afef-937d975ff7fc/content
 
 2. Romero, C., & Ventura, S. (2010). **Educational data mining: A review of the state of the art**. *IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews)*, 40(6), 601-618. https://doi.org/10.1109/TSMCC.2010.2053532
 
